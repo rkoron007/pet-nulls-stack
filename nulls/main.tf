@@ -12,10 +12,12 @@ terraform {
 
 variable "pet" {
   type = string
+  default = "banana"
 }
 
 variable "instances" {
   type = number
+  default = 1
 }
 
 resource "null_resource" "this" {
