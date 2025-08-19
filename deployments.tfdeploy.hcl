@@ -16,9 +16,7 @@ deployment "complex" {
   }
 }
 
-deployment_group "simple" {
-  auto_approve_checks = [deployment_auto_approve.no_destroy]
-}
+deployment_group "simple" {}
 
 deployment_auto_approve "no_destroy" {
   check {
