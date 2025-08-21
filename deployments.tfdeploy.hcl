@@ -4,7 +4,7 @@
 deployment "simple" {
   inputs = {
     prefix           = "simple"
-    instances        = 1
+    instances        = 2
   }
   deployment_group = deployment_group.simple
 }
@@ -12,7 +12,7 @@ deployment "simple" {
 deployment "complex" {
   inputs = {
     prefix           = "complex"
-    instances        = 3
+    instances        = 5
   }
 }
 
