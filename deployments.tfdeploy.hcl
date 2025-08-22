@@ -3,7 +3,7 @@
 
 upstream_input "network_stack" {
   type   = "stack"
-  source = "app.terraform.io/hashi-edu-premium/Rose Stacks test/st-pDo119vDqjAbFGX9"
+  source = "app.terraform.io/hashi-edu-premium/Rose Stacks test/crispy-invention"
 }
 
 
