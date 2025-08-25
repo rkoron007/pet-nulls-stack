@@ -48,3 +48,8 @@ component "nulls" {
     null = provider.null.this
   }
 }
+
+output "testing" {
+  type="string"
+  value = component.pet.name
+}
