@@ -12,7 +12,6 @@ terraform {
 
 variable "prefix" {
   type = string
-  default="apple"
 }
 
 resource "random_pet" "this" {
