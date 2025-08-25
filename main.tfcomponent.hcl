@@ -50,6 +50,6 @@ component "nulls" {
 }
 
 output "testing" {
-  type="string"
+  type = string
   value = component.pet.name
 }
