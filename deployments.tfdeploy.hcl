@@ -9,15 +9,15 @@ upstream_input "network_stack" {
 
 deployment "simple" {
   inputs = {
-    prefix           = "pimple"
-    instances        = 1
+    prefix           = "bark"
+    instances        = 2
   }
 }
 
 deployment "complex" {
   inputs = {
     prefix           = upstream_input.network_stack.staging_vpc_id
-    instances        = 1
+    instances        = 2
   }
 }
 
