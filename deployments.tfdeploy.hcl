@@ -9,7 +9,7 @@ upstream_input "network_stack" {
 
 deployment "simple" {
   inputs = {
-    prefix           = "bark"
+    prefix           = "testing"
     instances        = 2
   }
 }
