@@ -19,6 +19,7 @@ deployment "complex" {
     prefix           = upstream_input.network_stack.staging_vpc_id
     instances        = 2
   }
+  destroy = true
 }
 
 # deployment_group "simple" {
