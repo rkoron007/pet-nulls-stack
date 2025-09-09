@@ -12,6 +12,7 @@ deployment "simple" {
     prefix           = "DOOB"
     instances        = 2
   }
+    destroy = true
 }
 
 deployment "complex" {
